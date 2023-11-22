@@ -8,7 +8,7 @@ Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The appli
 
 ## Backend server
 
-Run node ./backend/server.js
+Run `node ./backend/server.js`.
 
 ## Code scaffolding
 
