@@ -1,0 +1,22 @@
+<nav>
+  <div class="left">
+    <a class="navLink" routerLink="/">Home</a>
+    <a class="navLink" *ngIf="userAuthenticated" routerLink="/user-list"
+      >List of users</a
+    >
+  </div>
+  <div class="right">
+    <a class="navLink" *ngIf="!userAuthenticated" routerLink="/login">Login</a>
+    <a class="navLink" *ngIf="!userAuthenticated" routerLink="/sign-up"
+      >Sign Up</a
+    >
+    <a
+      class="navLink"
+      *ngIf="userAuthenticated"
+      type="submit"
+      (click)="logout()"
+    >
+      Logout
+    </a>
+  </div>
+</nav>

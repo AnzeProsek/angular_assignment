@@ -1,0 +1,21 @@
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  height: 40px;
+  background-color: #333;
+  color: white;
+}
+
+.left a,
+.right a {
+  text-decoration: none;
+  color: white;
+  padding: 5px 10px;
+}
+
+nav .navLink:hover {
+  cursor: pointer;
+  text-decoration: underline;
+}
